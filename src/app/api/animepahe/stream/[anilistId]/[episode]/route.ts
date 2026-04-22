@@ -248,7 +248,7 @@ async function formatStreams(data: any) {
             if (stream) {
                 sub.push({
                     quality: q,
-                    stream: `https://animepahe-m3u8.leo-devil334.workers.dev/?url=${encodeURIComponent(stream)}`,
+                    stream: `https://workers.dev/?url=${encodeURIComponent(stream)}`,
                     iframe: iframe,
                     download:
                         data?.["Kiwi-Stream"]?.sub?.download?.[key] || null,
@@ -267,7 +267,7 @@ async function formatStreams(data: any) {
             if (stream) {
                 dub.push({
                     quality: q,
-                    stream: `https://animepahe-m3u8.leo-devil334.workers.dev/?url=${encodeURIComponent(stream)}`,
+                    stream: `https://workers.dev/?url=${encodeURIComponent(stream)}`,
                     iframe: iframe,
                     download:
                         data?.["Kiwi-Stream"]?.dub?.download?.[key] || null,
